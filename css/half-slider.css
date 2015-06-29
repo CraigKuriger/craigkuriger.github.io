@@ -79,6 +79,14 @@ a:hover {
     margin: auto;
 }
 
+.eda {
+    text-decoration: underline;
+}
+
+.eda:hover {
+    color: red;
+}
+
 .images {
     height: 80px;
     padding: 10px;
@@ -121,10 +129,13 @@ li {
     text-decoration: none;
 }
 
-.footer-col>h3, .footer-col>p, .footer-col>a, .footer-below>p{
+.footer-col>h3, .footer-col>p, .footer-col>a, .footer-below>p {
     color: #D3D3D3;
 }
 
+.footer-col>a:hover {
+    color: white;
+}
 
 .footer-above, .footer-below {
     background-color: #222;
