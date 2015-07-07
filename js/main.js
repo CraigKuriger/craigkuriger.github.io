@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$("#top-logo").hide().show("slow");
+	$("#top-logo").hide().show(1500);
 
     $('.images').mouseenter(function() {
         $(this).animate({
