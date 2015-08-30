@@ -88,6 +88,14 @@ a:hover {
     max-height: 100%;
     padding: 30px;
 }
+.gallery {
+    max-width: 80%;
+    max-height: 80%;
+    border: solid #222 15px;
+    border-radius: 7px;
+    margin: 30px;
+    box-shadow: 10px 10px 5px #888888;
+}
 
 .descriptions {
     padding: 0 15px;
@@ -133,3 +141,27 @@ li {
     padding: 0 70px;
 }
 
+#overlay {
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: none;
+    text-align: center;
+}
+
+#overlay img {
+    margin-top: 10%;
+    max-height: 400px;
+    max-width: 80%;
+    border: solid black 20px;
+    border-radius: 10px;
+}
+
+#overlay p {
+    padding-top: 10px;
+    font-size: 2em;
+    color: white;
+}
