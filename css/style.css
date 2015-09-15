@@ -277,6 +277,11 @@ li:hover {
     padding: 0 70px;
 }
 
+.gmap_canvas {
+    display: block;
+    margin: auto;
+}
+
 #overlay {
     background: rgba(0,0,0,0.8);
     width: 100%;
@@ -305,6 +310,8 @@ li:hover {
 footer {
     margin: 50px 0;
 }
+
+
 
 
 
