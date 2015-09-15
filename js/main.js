@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+    $('.carousel').carousel({
+        interval: 20000
+    })
+
 	$("#top-logo").hide().show(1500);
 
     $('.images').mouseenter(function() {

@@ -4,7 +4,6 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -13,7 +12,6 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -40,17 +38,15 @@
             </div>
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-
-                        <li class="links">
-                            <a href="https://www.linkedin.com/in/craigkuriger"><i class="fa fa-linkedin-square"></i></a>
-                        </li>
-                        <li class="links">
-                            <a href="mailto:craig.kuriger@icloud.com?Subject=Hello" target="_top"><i class="fa fa-envelope-square"></i></a>
-                        </li>
-                        <li class="links">
-                            <a href="https://github.com/CraigKuriger"><i class="fa fa-github-square"></i></a>
-                        </li>
-                                                  
+                    <li class="links">
+                        <a href="#about">ABOUT</a>
+                    </li>    
+                    <li class="links">
+                        <a href="#portfolio">PORTFOLIO</a>
+                    </li>  
+                    <li class="links">
+                        <a href="#contact">CONTACT</a>
+                    </li>                     
                 </ul>
             </div>
         </div>
@@ -65,19 +61,19 @@
 
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('img/craig4.jpg');"></div>
+                <div class="fill" style="background-image:url('img/craig1.jpg');"></div>
                 <div class="carousel-caption">
                     <img src="img/CK-LogoSubHeadingWhite.png" id="top-sub-heading">
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('img/craig7.jpg');"></div>
+                <div class="fill" style="background-image:url('img/craig2.jpg');"></div>
                 <div class="carousel-caption">
                     <img src="img/CK-LogoSubHeadingWhite.png" id="top-sub-heading">
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('img/craig6.jpg');"></div>
+                <div class="fill" style="background-image:url('img/craig3.jpg');"></div>
                 <div class="carousel-caption">
                     <img src="img/CK-LogoSubHeadingWhite.png" id="top-sub-heading">
                 </div>
@@ -93,29 +89,63 @@
 
     </header>
 
+
+        <section class="services">
+            <div class="container">
+
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <span class="fa-stack fa-5x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4>User Friendly</h4>
+                        <p class="text-muted">Because building with people in mind creates a better product</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="fa-stack fa-5x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4>Full Stack Functionality</h4>
+                        <p class="text-muted">Practicality plus Design</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="fa-stack fa-5x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4>Responsive Design</h4>
+                        <p class="text-muted">Optimal viewing and interaction across all platforms.</p>
+                    </div>
+                </div>
+                <a name="about"></a>
+            </div>
+        </section>
+
     <div class="container">
-
-        <div class="row">
-            <div class="col-sm-6">
-                <h1>About</h1>
-                <p>I'm a web developer with a passion for building commercially focused products</p><br>
-                <p>Recently I’ve been working on full stack responsive design while working within the Ruby on Rails framework. The thing that excites me the most about coding is that it one of the few areas where you can do something that is both creative and practical.</p></br>
-                <p>My real drive in web development comes from being able to build and work on great products where I can see the potential to be marketed to wide ranging audiences.
-                </p>
-                
-
-            </div>
- 
-            <div class="col-sm-6">
-                <h1>EDA</h1>
-                <p>In the first half of 2015 I took an 18 week web development bootcamp with the <a class="eda" href="http://devacademy.co.nz/">Enspiral Dev Academy.</a> This course was truly like no other I’ve experienced before - the learning equivalent of drinking water from a high pressure hose.</p><br>
-
-                <p>The intensity of the course required me to go into full immersion mode for the duration of the course. As I fell into a rhythm and learned a lot about myself and how to learn. I was able to steadily increase my learning curve over the course of the program. Now I feel like I am much faster at understanding new concepts and where they fit into the bigger picture. 
-                </p>
-                
-
-            </div>
+        <div class="about">
+            <img class="about-image img-circle img-responsive pull-right" src="img/code.jpg">
+            <h1>About
+            </h1>
+            <p class="text-muted">I'm a web developer with a passion for building user friendly, commercially focused products</p><br>
+            <p class="text-muted">Recently I’ve been working on full stack responsive design while working within the Ruby on Rails framework. The thing that excites me the most about coding is that it one of the few areas where you can do something that is both creative and practical.</p></br>
+            <p class="text-muted">
+            </p>
         </div>
+
+        <hr class="about-divider">
+
+        <div class="about">
+            <img class="about-image img-responsive pull-left grumpy" src="img/GrumpyReading.jpg">
+            <h1>My Story</h1>
+            <p class="text-muted">I came into this industry when one day I randomly decided to take <a class="eda text-muted" href="http://codesmashers.co/">Code Smashers</a> web design workshop.</p><br>
+            <p class="text-muted">In the first half of 2015 I took an 18 week web development bootcamp with the <a class="eda text-muted" href="http://devacademy.co.nz/">Enspiral Dev Academy.</a> This course was truly like no other I’ve experienced before - the learning equivalent of drinking water from a high pressure hose.</p><br>
+
+            <p class="text-muted">
+            </p>
+        </div>
+
         <hr>
             <img src="img/ToolBox.png" class="sub-heading">
         <hr>
@@ -133,6 +163,7 @@
                 <a href="http://adobe.com/CreativeCloud"><img class="images" src="img/indesign.png"></a>
                 <a href="http://adobe.com/CreativeCloud"><img class="images" src="img/photoshop.png"></a>
             </div>
+            <a name="portfolio"></a>
         </div>
     </section>
 
@@ -142,19 +173,19 @@
     <section class="grey">
         <div class="row">
             <div class="col-sm-4">
+                <a href="http://craigkuriger.com/LeapFrogPHP/"><img class="image-links" src="img/Leapfrog.png">
+                <i class="fa fa-shopping-cart"></i>
+                <p class="descriptions">A small scale shopping cart written in PHP. Designed for a small business and set up with full Paypal integration and a contact form. Click for more.</p></a></a>
+            </div>
+            <div class="col-sm-4">
                 <a href="http://grumpyshop.herokuapp.com"><img class="image-links" src="img/GrumpyShop.png">
                 <i class="fa fa-shopping-cart"></i>
                 <p class="descriptions">A Ruby on Rails Shopping cart using Devise authentication. Users can browse products by category and there are also also pages only admin can access to add, delete and update products. Click to see the fully responsive website.</p></a></a>
             </div>
             <div class="col-sm-4">
-                <a href="http://leapfrogshop.herokuapp.com"><img class="image-links" src="img/Leapfrog.png">
-                <i class="fa fa-shopping-cart"></i>
-                <p class="descriptions">My first attempt at writing in the PHP language, a shopping cart set up with full Paypal integration. Click for more.</p></a></a>
-            </div>
-            <div class="col-sm-4">
-                <a href="http://minibook.herokuapp.com"><img class="image-links" src="img/MiniBookBlack.png">
+                <a href="http://sotpno.herokuapp.com"><img class="image-links" src="img/sotp.png">
                 <i class="fa fa-book"></i>
-                <p class="descriptions">A social media clone app built with Rails. It has a news feed sorting from the newest user posts down. Making use of the Devise authentication and State Machine gems, users can create posts and add and delete friends. Click to sign up...</p></a>
+                <p class="descriptions">A message board app built with Rails. It has a news feed sorting from the newest user posts down. Making use of the Devise authentication and State Machine gems, users can create posts and add and delete friends. Click to sign up...</p></a>
             </div>
             <div class="col-sm-4">
                 <a href="http://notepadapp.herokuapp.com"><img class="image-links" src="img/notepad.png">
@@ -162,41 +193,64 @@
                 <p class="descriptions">A notepad organiser app built with a test driven development approach using automated integration testing with Capybara and R-Spec. Making use of Rails associations, individual items can be added to lists which can be edited, marked complete and deleted</p></a></a>
             </div>
             <div class="col-sm-4">
-                <a href="http://www.craigkuriger.freewebhost.co.nz/"><img class="image-links" src="img/notepadkids.png">
+                <a href="http://craigkuriger.com/NotePadKids/"><img class="image-links" src="img/notepadkids.png">
                 <i class="fa fa-pencil-square-o"></i>
                 <p class="descriptions">A Etch-A-Sketch app making use of the HTML-5 Canvas and JQuery. Users can created their own colours and draw away on the blank canvas.</p></a></a>
             </div>
-            <div class="col-sm-4">
+<!--             <div class="col-sm-4">
                 <a href="https://www.youtube.com/watch?v=V06WyGihNdo"><img class="image-links" src="img/GetRid.png">
                 <i class="fa fa-location-arrow"></i>
                 <p class="descriptions">Our team project made in a week - designed for the purpose of letting people get rid of stuff for free! The front end is a single page application with swipe gestures, created with KnockoutJS and HammerJS frameworks. User and location data is stored in and ASP.NET API database. Click to see the demo video.</p></a>
-            </div>
+            </div> -->
         </div>      
     </section>
     <hr>
         <img src="img/CurrentProjects.png" class="sub-heading">
     <hr>
-    <section class="grey">
-        <div class="row" id="gallery">
-            <div class="col-sm-6">
-                <a href="img/VisualStudio.png"><img class="gallery" src="img/VisualStudio.png" alt="C# / ASP.NET"></a>
-            </div>
-            <div class="col-sm-6">
-                <a href="img/XCode.jpg"><img class="gallery" src="img/XCode.jpg" alt="Swift / XCode / iOS Simulator"></a>
-            </div>
 
+    <section id="gallery" class="grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 gallery-item">
+                    <a href="img/VisualStudio.png" class="gallery-link">
+                        <div class="gallery-hover">
+                            <div class="gallery-hover-content">
+                                <i class="fa fa-wrench fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/VisualStudio.png" class="img-responsive borders" alt="C# / ASP.NET">
+                    </a>
+                    <br>
+                    <i class="fa fa-desktop"></i>
+                    <p class="descriptions">C# / ASP.NET</p>
+                </div>     
+                <div class="col-md-6 gallery-item">
+                    <a href="img/XCode.jpg" class="gallery-link">
+                        <div class="gallery-hover">
+                            <div class="gallery-hover-content">
+                                <i class="fa fa-wrench fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/XCode.jpg" class="img-responsive borders" alt="Swift / iOS">
+                    </a>
+                        <br>
+                        <i class="fa fa-mobile"></i>
+                        <p class="descriptions">Swift / iOS</p>
+                </div>     
+            </div>
         </div>
     </section>
 
         <hr>
+            <a name="contact"></a>
             <img src="img/MoreInfo.png" class="sub-heading">
         <hr>
-
+    </div>
                 <div class="footer-above">
                         <div class="row">
                             <div class="footer-col col-md-6">
                                 <h3>Contact</h3>
-                                <p>Email:<br>craig.kuriger@icloud.com</p>
+                                <p>Email:<br>craig@craigkuriger.com</p>
                                 <p>Phone:<br>+64272721285</p>
                                         <a href="https://www.linkedin.com/in/craigkuriger"><i class="fa fa-linkedin-square fa-3x"></i></a>
                                         <a href="mailto:craig.kuriger@icloud.com?Subject=Hello" target="_top"><i class="fa fa-envelope-square fa-3x"></i></a>
@@ -219,7 +273,7 @@
                         </div>
                     </div>
                 </div>
-    </div>
+    
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -227,12 +281,6 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
     <script src="js/main.js"></script>
 
 </body>
