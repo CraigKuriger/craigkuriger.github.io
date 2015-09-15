@@ -6,6 +6,23 @@ $(document).ready(function() {
 
 	$("#top-logo").hide().show(1500);
 
+    // $(document).scroll(function() {
+    //     $(".code").attr("src", "img/GrumpyReading.jpg")
+    // });
+
+    // $(document).scrollstop(function() {
+    //     alert("chode");
+    //     $(".code").attr("src", "img/code.jpg")
+    // });
+
+    $(".code").mouseenter(function() {
+        $(this).attr("src", "img/code2.jpg")
+    });
+
+    $(".code").mouseleave(function() {
+        $(this).attr("src", "img/code1.jpg")
+    });
+
     $('.images').mouseenter(function() {
         $(this).animate({
             height: '+=10px'
