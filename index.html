@@ -10,15 +10,12 @@
 
     <title>Craig Kuriger</title>
 
-    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico">
 
 </head>
@@ -39,13 +36,13 @@
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="links">
-                        <a href="#about">ABOUT</a>
+                        <a href="#about" class="animated slideInRight">ABOUT</a>
                     </li>    
                     <li class="links">
-                        <a href="#portfolio">PORTFOLIO</a>
+                        <a href="#portfolio" class="animated slideInRight">PORTFOLIO</a>
                     </li>  
                     <li class="links">
-                        <a href="#contact">CONTACT</a>
+                        <a href="#contact" class="animated slideInRight">CONTACT</a>
                     </li>                     
                 </ul>
             </div>
@@ -95,7 +92,7 @@
 
                 <div class="row text-center">
                     <div class="col-sm-4">
-                        <span class="fa-stack fa-5x">
+                        <span class="fa-stack fa-5x animated zoomInDown">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-user fa-stack-1x fa-inverse"></i>
                         </span>
@@ -103,7 +100,7 @@
                    <!--      <p class="text-muted">Because building with people in mind creates a better product</p> -->
                     </div>
                     <div class="col-sm-4">
-                        <span class="fa-stack fa-5x">
+                        <span class="fa-stack fa-5x animated zoomInUp">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
@@ -111,7 +108,7 @@
                        <!--  <p class="text-muted">From server side to client side</p> -->
                     </div>
                     <div class="col-sm-4">
-                        <span class="fa-stack fa-5x">
+                        <span class="fa-stack fa-5x animated zoomInRight" >
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
                         </span>
@@ -172,29 +169,34 @@
     <section class="grey">
         <div class="row">
             <div class="col-sm-4">
-                <a href="http://craigkuriger.com/LeapFrogPHP/"><img class="image-links" src="img/Leapfrog.png">
+                <a href="http://craigkuriger.com/LeapFrogPHP/"><img class="image-links wow rubberBand" src="img/Leapfrog.png">
                 <i class="fa fa-shopping-cart"></i>
                 <p class="descriptions">A small scale shopping cart written in PHP. Designed for a small business and set up with full Paypal integration and a contact form. Click for more.</p></a></a>
             </div>
             <div class="col-sm-4">
-                <a href="http://grumpyshop.herokuapp.com"><img class="image-links" src="img/GrumpyShop.png">
+                <a href="http://grumpyshop.herokuapp.com"><img class="image-links wow rubberBand" src="img/GrumpyShop.png">
                 <i class="fa fa-shopping-cart"></i>
                 <p class="descriptions">A Ruby on Rails Shopping cart using Devise authentication. Users can browse products by category and there are also also pages only admin can access to add, delete and update products. Click to see the fully responsive website.</p></a></a>
             </div>
             <div class="col-sm-4">
-                <a href="http://sotpno.herokuapp.com"><img class="image-links" src="img/sotp.png">
+                <a href="http://sotpno.herokuapp.com"><img class="image-links wow rubberBand" src="img/sotp.png">
                 <i class="fa fa-book"></i>
                 <p class="descriptions">A message board app built with Rails. It has a news feed sorting from the newest user posts down. Making use of the Devise authentication and State Machine gems, users can create posts and add and delete friends.</p></a>
             </div>
             <div class="col-sm-4">
-                <a href="http://notepadapp.herokuapp.com"><img class="image-links" src="img/notepad.png">
+                <a href="http://notepadapp.herokuapp.com"><img class="image-links wow rubberBand" src="img/notepad.png">
                 <i class="fa fa-pencil-square-o"></i>
                 <p class="descriptions">A notepad organiser app built with a test driven development approach using automated integration testing with Capybara and R-Spec. Making use of Rails associations, individual items can be added to lists which can be edited, marked complete and deleted</p></a></a>
             </div>
             <div class="col-sm-4">
-                <a href="http://craigkuriger.com/NotePadKids/"><img class="image-links" src="img/notepadkids.png">
+                <a href="http://craigkuriger.com/NotePadKids/"><img class="image-links wow rubberBand" src="img/notepadkids.png">
                 <i class="fa fa-pencil-square-o"></i>
                 <p class="descriptions">A Etch-A-Sketch app making use of the HTML-5 Canvas and JQuery. Users can created their own colours and draw away on the blank canvas.</p></a></a>
+            </div>
+            <div class="col-sm-4">
+                <a href="http://craigkuriger.com/grumpy/"><img class="image-links wow rubberBand" src="img/GrumpyMotivation.png">
+                <i class="fa fa-paw"></i>
+                <p class="descriptions">A display website making use of CSS & JavaScript animation plugins.</p></a></a>
             </div>
 <!--             <div class="col-sm-4">
                 <a href="https://www.youtube.com/watch?v=V06WyGihNdo"><img class="image-links" src="img/GetRid.png">
@@ -276,7 +278,8 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init();</script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 

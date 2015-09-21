@@ -77,6 +77,16 @@ a:hover {
     max-height: 300px;
 }
 
+.fa-stack {
+  webkit-animation-duration: 5s;
+  moz-animation-duration: 5s;
+}
+
+.image-links {
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
 @media(max-width:991px) {
 
     .about-divider {
@@ -151,6 +161,7 @@ a:hover {
 .grumpy:hover {
   cursor: default;
   transform: rotate(360deg);
+  webkit-transform: rotate(360deg);
   transition: all 0.3s ease-in-out 0s;
 }
 
